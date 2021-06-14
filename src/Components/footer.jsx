@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="item-2">
-          <h4>About Us</h4>
+          <h4 className="heading4">About Us</h4>
           <div className="nav-list">
             <ul>
               {footerLinks1.map((item) => {
@@ -51,7 +51,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="item3">
-          <h4>Quick Links</h4>
+          <h4 className="heading4">Quick Links</h4>
           <div className="nav-list">
             <ul>
               {footerLinks1.map((item) => {
@@ -65,7 +65,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="item-4">
-          <h4>Services</h4>
+          <h4 className="heading4">Services</h4>
           <div className="nav-list">
             <ul>
               {footerLinks1.map((item) => {

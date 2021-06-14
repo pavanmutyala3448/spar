@@ -1,37 +1,31 @@
 import "../styles.css";
 import Navbar from "./Navbar";
 import MainContain from "./MainContain";
-import Services from "./services/services";
-import ManagedCloud from './services/MangedCloud'
-import {
-  Route,
-  Switch
-} from "react-router-dom";
+// import ManagedCloud from "./services/MangedCloud";
+import ServicesSection from "./services/serviceSection";
+import { Route, Switch, Redirect } from "react-router-dom";
+import CaseStudy from "./CaseStudy/casestudy";
+
+import AWSDevOPs from "./services/AWSDEVOPS";
+import Notfound from "./notfoun";
+import DataMigration from "./services/dataMigration";
 export default function App() {
-  return ( <
-    div className = "App" >
-    <Navbar / >
-    <Switch >
-    <Route path = "/"
-    exact component = {
-      MainContain
-    }
-    /> <
-    Route path = "/Services"
-    component = {
-    Services
-    }
-    />  <
-    Route path = "/Services/securityCloud"
-    component = {
-      MainContain
-    }
-    />
-    <
-   Route path = "/Services/ManagedCloud"
-   component = {MainContain}
-   />< /
-    Switch > <
-    /div>
+  return (
+    <div className="App">
+      <Navbar />
+      <Switch>
+        <Route exact path="/" component={MainContain} />
+        <Route exact path="/Services" component={ServicesSection} />
+        <Route exact path="/CaseStudy" component={CaseStudy} />
+        <Route exact path="/not-found" component={Notfound} />
+        <Route
+          exact
+          path="/Services/AWSdatamigration"
+          component={DataMigration}
+        />
+        <Route exact path="/Services/AWSdevops" component={AWSDevOPs} />
+        <Redirect to="/not-found" />
+      </Switch>
+    </div>
   );
 }
