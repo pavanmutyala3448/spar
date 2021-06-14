@@ -1,10 +1,10 @@
-import React from 'react';
-import ServiceSection from './serviceSection'
+import React from "react";
+import ServiceSection from "./serviceSection";
 const Services = () => {
-    return ( <>
-        <ServiceSection / >
-
-        </>
-    )
-}
+  return (
+    <>
+      <ServiceSection />
+    </>
+  );
+};
 export default Services;

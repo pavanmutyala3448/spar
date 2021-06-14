@@ -10,28 +10,18 @@ import Section6 from "./section-6";
 
 import Footer from "./footer";
 const MainContain = () => {
-    return ( <
-        React.Fragment >
-        <
-        Banner / >
-        <
-        Features / >
-        <
-        FeatureSection / >
-        <
-        Blog / >
-        <
-        Section3 / >
-        <
-        Section4 / >
-        <
-        Section5 / >
-        <
-        Section6 / >
-        <
-        Footer / >
-        <
-        /React.Fragment>
-    );
+  return (
+    <React.Fragment>
+      <Banner />
+      <Features />
+      <FeatureSection />
+      <Blog />
+      <Section3 />
+      <Section4 />
+      <Section5 />
+      <Section6 />
+      <Footer />
+    </React.Fragment>
+  );
 };
 export default MainContain;

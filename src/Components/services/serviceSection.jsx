@@ -1,20 +1,18 @@
-import React from 'react';
-import AWS from './AWS'
-import Section6 from '../section-6'
-import ServiceBanner from './section-1'
-import Footer from '../footer'
+import React from "react";
+import AWS from "./AWS";
+import Section6 from "../section-6";
+import ServiceBanner from "./section-1";
+import Footer from "../footer";
 
 const ServiceSection = () => {
-    return ( <>
+  return (
+    <>
+      <ServiceBanner content="Security in cloud-AWS" />
+      <AWS />
+      <Section6 />
 
-        <ServiceBanner content='Security in cloud-AWS' / >
-        <AWS / >
-        <Section6 / >
-
-        <Footer / >
-
-        </>
-    )
-
-}
+      <Footer />
+    </>
+  );
+};
 export default ServiceSection;
