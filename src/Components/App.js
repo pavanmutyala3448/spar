@@ -16,7 +16,7 @@ export default function App() {
       <Navbar />
       <Switch>
         <Route exact path="/" component={MainContain} />
-        <Route exact path="/Services" component={ServicesSection} />
+        <Route exact path="/Services" component={ManagedCloud} />
         <Route exact path="/Services/managedCloud" component={ManagedCloud} />
         <Route
           exact

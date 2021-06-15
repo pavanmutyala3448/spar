@@ -26,7 +26,7 @@ const AWSDevOPs = () => {
         <div className="Grid Grid-4">
           <Contact />
         </div>
-        <div className="Grid Grid-5 grod">
+        <div className="Grid Grid-5 grid-data">
           <ChooseTemplate />
         </div>
         <div className="Grid Grid-6">
