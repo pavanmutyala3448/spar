@@ -1,4 +1,5 @@
 import React from "react";
+import "../ComponentsStyles/ServicesStyles/choose.css";
 const ChooseTemplate = () => {
   const data = [
     {

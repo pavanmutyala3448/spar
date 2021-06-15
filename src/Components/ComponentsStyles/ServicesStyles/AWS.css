@@ -44,9 +44,9 @@
 }
 
 .links a:hover,
-.active-menu {
+a.active-menu {
   background: linear-gradient(to right, orange 40%, yellow);
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 .Grid-3 {
@@ -158,7 +158,14 @@
 }
 
 .Grid-6 h4 {
+  font-size: 20px;
+  text-align: left;
+  padding: 5px;
   font-weight: 600;
+}
+.Grid-6 p {
+  text-align: left;
+  padding: 15px;
 }
 
 .brochure-contact {

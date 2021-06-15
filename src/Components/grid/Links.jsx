@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 const Links = () => {
   return (
     <div className="links">
-      <NavLink activeClassName="active-menu" to="/Services/ManagedCloud">
+      <NavLink activeClassName="active-menu" to="/Services/managedCloud">
         Managed Cloud Services
       </NavLink>
       <NavLink activeClassName="active-menu" to="/Services/AWSdevops">

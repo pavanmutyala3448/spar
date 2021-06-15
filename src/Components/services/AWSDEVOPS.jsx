@@ -3,8 +3,6 @@ import Overview from "../grid/overview";
 import Image from "../grid/Image";
 import Links from "../grid/Links";
 import ChooseTemplate from "../grid/choose";
-import Section6 from "../section-6";
-import Footer from "../footer";
 import Contact from "../grid/contact";
 import Brochure from "../grid/brochure";
 import ServiceBanner from "../grid/section-1";
@@ -35,8 +33,6 @@ const AWSDevOPs = () => {
           <Brochure />
         </div>
       </div>
-      <Section6 />
-      <Footer />
     </React.Fragment>
   );
 };
