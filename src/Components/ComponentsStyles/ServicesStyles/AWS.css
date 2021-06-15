@@ -141,6 +141,7 @@ a.active-menu {
 .item h4 {
   font-size: 20px;
   font-weight: 100;
+  text-align: left;
 }
 
 .item p {
