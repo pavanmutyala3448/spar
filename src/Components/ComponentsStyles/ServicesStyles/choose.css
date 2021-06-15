@@ -1,3 +1,6 @@
+.group {
+  width: 550px;
+}
 h4 {
   font-size: 30px;
   font-weight: 400;
@@ -7,12 +10,12 @@ h4 {
 .choose-content {
   display: flex;
   width: 100%;
-  padding: 10px;
+  padding: 5px;
   align-items: center;
 }
 .choose-content > p {
   width: 100%;
-
+  font-size: 14px;
   text-align: left;
 }
 .choose-content i {
