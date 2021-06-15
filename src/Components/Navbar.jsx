@@ -9,25 +9,25 @@ const Navbar = () => {
         <img src={logo} alt="logo" />
         <ul>
           <li>
-            <NavLink activeClassName="current" to="/">
+            <NavLink exact activeClassName="current" to="/">
               {" "}
               Home{" "}
             </NavLink>{" "}
           </li>{" "}
           <li>
-            <NavLink activeClassName="current" to="/Services">
+            <NavLink exact activeClassName="current" to="/Services">
               {" "}
               Services{" "}
             </NavLink>{" "}
           </li>{" "}
           <li>
-            <NavLink activeClassName="current" to="/CaseStudy">
+            <NavLink exact activeClassName="current" to="/CaseStudy">
               {" "}
               Case Study{" "}
             </NavLink>{" "}
           </li>{" "}
           <li>
-            <NavLink activeClassName="current" to="/About">
+            <NavLink exact activeClassName="current" to="/About">
               {" "}
               About us{" "}
             </NavLink>{" "}

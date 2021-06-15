@@ -5,6 +5,7 @@ import Links from "../grid/Links";
 import ChooseTemplate from "../grid/choose";
 import Contact from "../grid/contact";
 import Brochure from "../grid/brochure";
+import data from "./awsdata";
 import ServiceBanner from "../grid/section-1";
 import "../ComponentsStyles/ServicesStyles/datamigration.css";
 const AWSDevOPs = () => {
@@ -27,7 +28,7 @@ const AWSDevOPs = () => {
           <Contact />
         </div>
         <div className="Grid Grid-5 grid-data">
-          <ChooseTemplate />
+          <ChooseTemplate data={data} />
         </div>
         <div className="Grid Grid-6">
           <Brochure />

@@ -1,24 +1,6 @@
 import React from "react";
 import "../ComponentsStyles/ServicesStyles/choose.css";
-const ChooseTemplate = () => {
-  const data = [
-    {
-      id: 1,
-      content: "Up am intention on dependent questions"
-    },
-    {
-      id: 2,
-      content: "Up am intention on dependent questions"
-    },
-    {
-      id: 3,
-      content: "Up am intention on dependent questions"
-    },
-    {
-      id: 4,
-      content: "Up am intention on dependent questions"
-    }
-  ];
+const ChooseTemplate = ({ data }) => {
   return (
     <div className="g5">
       <h4>Why Choose us</h4>

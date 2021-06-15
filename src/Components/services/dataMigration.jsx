@@ -3,7 +3,7 @@ import Overview from "../grid/overview";
 import Image from "../grid/Image";
 import Links from "../grid/Links";
 import ChooseTemplate from "../grid/choose";
-
+import data from "./datamigrationdata";
 import Contact from "../grid/contact";
 import Brochure from "../grid/brochure";
 import ServiceBanner from "../grid/section-1";
@@ -28,7 +28,7 @@ const DataMigration = () => {
           <Contact />
         </div>
         <div className="Grid Grid-5  grid-data">
-          <ChooseTemplate />
+          <ChooseTemplate data={data} />
         </div>
         <div className="Grid Grid-6">
           <Brochure />
