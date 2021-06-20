@@ -34,6 +34,7 @@ const Blog = () => {
             />
           ))}{" "}
         </div>{" "}
+        <button className="blog_btn">Explore All</button>
       </div>
     </div>
   );

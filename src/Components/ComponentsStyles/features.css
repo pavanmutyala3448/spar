@@ -1,60 +1,49 @@
 * {
-    text-align: center;
+  text-align: center;
 }
 
 .features {
-    width: 80%;
-    margin: 10px auto;
+  width: 80%;
+  margin: 100px auto;
 }
 
 .services {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-    grid-gap: 0px;
-    align-items: center;
-    margin: 10px auto;
-    text-align: center;
-    grid-column-gap: 5px;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-gap: 20px;
+  align-items: center;
+  margin: 10px auto;
+  text-align: center;
+  grid-column-gap: 5px;
 }
 
 .services h3 {
-    font-weight: 500;
-    font-size: 20px;
-    margin-top: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 10px;
 }
 
-.service-1 img,
-.service-2 img,
-.service-3 img,
-.service-4 img {
-    width: 120px;
+.service img {
+  width: 90px;
 }
 
-.service-1 p,
-.service-2 p,
-.service-3 p,
-.service-4 p {
-    text-align: center;
-    width: 50%;
-    margin: 10px auto;
-    font-size: 12px;
-    padding: 0 30px 0 30px;
+.service p {
+  text-align: center;
+  width: 70%;
+  margin: 10px auto;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 30px 0 30px;
 }
 
-.service-4 {
+@media (max-width: 900px) {
+  .services {
+    display: block;
+    margin-top: 80px;
+  }
+  .service-4 {
     position: relative;
-    left: 385px;
+    left: 0px;
     margin: 0px auto;
-}
-
-@media (max-width:900px) {
-    .services {
-        display: block;
-        margin-top: 80px;
-    }
-    .service-4 {
-        position: relative;
-        left: 0px;
-        margin: 0px auto;
-    }
+  }
 }

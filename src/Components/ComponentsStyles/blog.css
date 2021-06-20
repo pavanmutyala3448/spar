@@ -16,6 +16,11 @@
 .blogger {
   font-size: 30px;
 }
+.blog_btn {
+  width: 7rem;
+  border-radius: 0;
+  font-size: 0.8em;
+}
 
 @media (max-width: 900px) {
   .blog {

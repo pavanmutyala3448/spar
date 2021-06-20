@@ -1,6 +1,28 @@
 import React from "react";
 import "./ComponentsStyles/FeatureSection2.css";
 const FeatureSection = () => {
+  const icons = [
+    {
+      id: "item-1",
+      class: "fas fa-server",
+      data: "Enterprise - class equipment"
+    },
+    {
+      id: "item-2",
+      class: "fas fa-chart-line",
+      data: "Break-through performance"
+    },
+    {
+      id: "item-3",
+      class: "fas fa-user-lock",
+      data: "Enhanced security"
+    },
+    {
+      id: "item-4",
+      class: "fas fa-globe",
+      data: "Broad geopositioning"
+    }
+  ];
   return (
     <div className="Section-2">
       <div className="left">
@@ -18,15 +40,25 @@ const FeatureSection = () => {
         />
       </div>
       <div className="right">
-        <h2>Great Responsive & Strong Competitive People</h2>
+        <h2>Innovative Cloud Solutions to implement incredible ideas.</h2>
         <p>
-          Some hardworking People are Working Day and Night to provide you
-          highly scalable product .
+          Sparue is an ideal online Сloud IT infrastructure rental service. Our
+          service lets you configure and deploy virtual servers, configure
+          network circuits, order SSL certificates, administer domain zones and
+          monitoring.
         </p>
-        <p>Amazing communication experience.</p>
-        <p>Best designing experience with trending tools and sizes.</p>
-        <p>Training and communication method remotely.</p>
-        <p>24/7 Hour onine supports.</p>
+        <div className="wrapper">
+          <div className="icon">
+            {icons.map((item) => {
+              return (
+                <div className="icon-feature">
+                  <i class={item.class}></i>
+                  <p>{item.data}</p>
+                </div>
+              );
+            })}
+          </div>
+        </div>
         <button className="feature-btn-1">Discover Items</button>
       </div>
     </div>
